@@ -132,8 +132,7 @@ header {
 /*para mover o bloco do primeiro texto */
 .textos1 {
     margin-left: 80px;
-    margin-top: 40px;
-   
+    margin-top: 40px;  
 }
 /*titulo equipe cash edu */
 h4 {
@@ -224,4 +223,79 @@ h4 {
 #foto1 {
     width: 100%;
     margin-bottom: 100px;
+}
+
+/*Gabriel*/
+.container-amarelo {
+    height: 115%;
+    width: 100%;
+    background-color: #ffd95a;
+    padding-top: 1%;
+    margin-top: -22%;
+}
+/*cores, espaços e fontes*/
+.container-amarelo .color-h2 {
+    color: #3f5166;
+    font-size: 20px;
+}
+.container-amarelo .size-h2 {
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+}
+.container-amarelo .size-p {
+    font-size: 15px;
+}
+.container-amarelo .space-p {
+    margin-bottom: 8px;
+    color: #7694b7;
+}
+.container-amarelo .caixa .borda{
+    width: 35%;
+    height: 25%;
+    display: flex;
+    background-color: #ffffff;
+    border:2px solid #7694b7;
+    border-radius: 20px;
+    margin-left: 5%;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-left: 72px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+/*sobre*/ 
+.container-amarelo .sobre {
+    width: 45%;
+    height: 50%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+/*imagens de sobre*/
+.container-amarelo .sobre .imgs {
+    margin-top: 8%;
+}
+.container-amarelo .sobre .img-link1 {
+    width: 29%;
+    border: 1.5px #7694b7 solid;
+    border-radius: 6px;
+}
+.container-amarelo .sobre .img-link2 {
+    width: 30%;
+    height: 10%;
+    border: 1.5px #7694b7 solid;
+    border-radius: 6px;
+}
+/*img celular*/
+.container-amarelo #img-celular {
+    position: absolute;
+    bottom: -345%;
+    right: 10%;
+}
+.container-amarelo #img-celular img {
+    max-width: 350px;
+    max-height: 700px;
+    border-radius: 50px;
 }
