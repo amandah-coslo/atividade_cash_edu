@@ -111,3 +111,117 @@ header {
     font-weight: 600;
     color: darkblue;
 }
+
+/*Henrique*/
+/*container*/
+.container {
+    margin-top: 24%;
+}
+/*titulo quem somos  */
+.h11 {
+    margin-bottom: 30px;
+    color: rgb(63,85,102);
+    font-size: larger;
+}
+/*3 paragrafos */
+.p1 {
+    margin-bottom: 30px;
+    color: rgb(134,158,189);
+    font-size: 16px;
+}
+/*para mover o bloco do primeiro texto */
+.textos1 {
+    margin-left: 80px;
+    margin-top: 40px;
+   
+}
+/*titulo equipe cash edu */
+h4 {
+    margin-top: 70px;
+    padding-bottom: 20px;
+    top: 40px;
+    left: 100px;
+    color: black;
+    font-size: 15px;
+    font-style: none;
+}
+/*caixa contendo os 3 paragrafos */
+.grupo {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+/*texto das caixas   */
+#bloco2 {
+    padding-bottom: 14px;
+    padding-top: 4px;
+    color: rgb(64,89,117);  
+}
+/*titulo das caixas  */
+#pbloco2 {
+    color: #7694b7;
+    padding-bottom: 15px;
+}  
+/*propriedas da borda */
+.container .caixa .borda{
+    width: 35%;
+    height: 25%;
+    display: flex;
+    background-color: #ffffff;
+    border:2px solid #7694b7;
+    border-radius: 20px;
+    margin-left: 5%;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-left: 72px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+/*texto dentro da borda  */
+.container .caixa .borda .texto {  
+    flex-direction: column;
+    padding-left: 45px;
+}
+/*img dentro da borda */
+.container .caixa .borda .img {
+    margin-top:  10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 12vw;
+    border-radius: 20px;
+    background-color: #fff9ee;
+}
+.h1beneficios {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(63,81,102);
+    font-size: 50px;
+}
+.h2beneficios {
+    text-align: center;
+    font-weight: 10;
+    color:rgb(63,81,102);
+    font-size: 40px;
+}
+.beneficios{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 500px;
+    bottom: 630px;
+    text-align: center;
+    color: rgb(66, 88, 114);
+    font-weight: none;
+    font-size: 17px;
+    padding-left: 100px;
+}
+#foto1 {
+    width: 100%;
+    margin-bottom: 100px;
+}
