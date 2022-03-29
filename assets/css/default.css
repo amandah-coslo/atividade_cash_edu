@@ -8,7 +8,7 @@ html, body {
     height: 100%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    background-image: url(./img/backgroud.jpg);
+    background-image: url(../img/backgroud.jpg);
     background-repeat: no-repeat;
     background-size: cover;    
 }

@@ -413,7 +413,7 @@ ul.est {
     margin-bottom: 5px;
 }
 ul  {
-    list-style: square inside url(./Vector.png);
+    list-style: square inside url(../img/vector.png);
     margin: 0;
 }
 a {
